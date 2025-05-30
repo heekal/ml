@@ -1,13 +1,17 @@
 # 💳 Malicious Transaction Detector
 
+This project is for I-smile laboratory reqruitment task.
+
 A lightweight and intuitive web application built with **Python** and **Streamlit**, designed to analyze transaction behavior and detect potentially **fraudulent transactions** using a **Random Forest** classifier.
+
+### WARNING! THIS IS JUST A SIMULATION TOOLS.
 
 ---
 
 ## 🚀 Features
 
 - 🧠 **Machine Learning-based Classification**  
-  Uses a trained **Random Forest** model to classify transactions as **fraudulent** or **normal**, based on behavioral features.
+  Uses a trained base **Random Forest** model to classify transactions as **fraudulent** or **normal**, based on behavioral features.
 
 - 📊 **User-friendly Web Interface**  
   Built with Streamlit for an interactive and easy-to-use experience.
@@ -31,4 +35,9 @@ A lightweight and intuitive web application built with **Python** and **Streamli
 Install dependencies using:
 
 ```bash
-pip install -r requirements.txt
+pip install -r req.txt
+```
+
+How to play:
+```bash
+streamlit run main.py
